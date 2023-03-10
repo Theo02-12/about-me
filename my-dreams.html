@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mon site">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Site Simplon</title>
+</head>
+<body>
+    <div class="header">
+        <div class="content-header">
+            <h1>THÉO COUVELARD</h1>
+            <small class="h2-small">Développeur Web</small>
+            <p>Organisé, assidu, déterminé, flexible et toujours souriant</p>
+        </div>
+        <div class="nav-bar">
+            <nav>
+                <label for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
+                <div class="main_pages">
+                    <a href="index.html">Mon profil</a>
+                    <a href="about-me.html">À propos de moi</a>
+                    <a href="my-dreams.html">Mes rêves</a>
+                    <a href="my-passions.html">Mes passions</a>
+                </div>
+            </nav>
+    </div>
+    </div>
+
+    <div class="section">
+        <div class="titre-main"><h2>MES RÊVES D'APPRENANT</h2></div>
+        <div class="main-content">
+
+            <div class="objectif reves">
+                <h2>Mes objectifs personnels</h2>
+                <ol>
+                    <li>Travailler dans un domaine que j'aime</li>
+                    <li>Atteindre mes objectifs</li>
+                    <li>Être à l'aise financièrement</li>
+                </ol>
+            </div>
+            
+            <div class="objectif reves">
+                <h2>Mes objectifs pro</h2>
+                <ol>
+                    <li>Aimer mon travail</li>
+                    <li>Avoir un bon salaire</li>
+                    <li>Être freelance</li>
+                </ol>
+            </div>
+
+            <div class="objectif reves">
+                <h2>Mon engagement</h2>
+                <ul>
+                    <li>Présent à chaque cours</li>
+                    <li>Travailler et étudier</li>
+                    <li>Aller jusqu'au bout et ne pas abandonner</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-element">
+            <h3>Théo Couvelard</h3>
+            <i class="fa-solid fa-copyright"></i>
+            <button><a href="COUVELARD Théo.pdf.pdf">CV</a></button>
+            <button class="btn-night" onclick="nightMode()" aria-label="Search"><i class="fa-regular fa-moon"></i></button>
+        </div>
+        </div>
+
+        <script>            
+            function nightMode(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+
+            }
+
+            
+        </script>
+</body>
+</html>

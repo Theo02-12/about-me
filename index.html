@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mon site">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Site Simplon</title>
+</head>
+<body>
+    <div class="header">
+        <div class="content-header">
+            <h1>THÉO COUVELARD</h1>
+            <small class="h2-small">Développeur Web</small>
+            <p>Organisé, assidu, déterminé, flexible et toujours souriant </p>
+        </div>
+        <div class="nav-bar">
+                <nav>
+                    <label for="toggle">☰</label>
+                    <input type="checkbox" id="toggle">
+                    <div class="main_pages">
+                        <a href="index.html">Mon profil</a>
+                        <a href="about-me.html">À propos de moi</a>
+                        <a href="my-dreams.html">Mes rêves</a>
+                        <a href="my-passions.html">Mes passions</a>
+                    </div>
+                </nav>
+        </div>
+                
+    </div>
+        
+
+    <div class="main-section">
+        <div class="titre-main"><h2>MON PROFIL</h2></div>
+        
+        <div class="main">
+            <div class="content">
+                <div class="portrait"></div>
+                    <div class="para-main">
+                        <p class="para1">Je m'appelle Théo Couvelard, j'ai 20 ans et je veux devenir <em>développeur web.</em></p>
+                        <p class="para2">J'ai commencé à apprendre le développement web pendant le confinement, avec le site OpenClassrooms via les cours gratuits. Après une grosse période d'arrêt j'ai décidé de reprendre il y a quelques temps car je pense que c'est le domaine qui me corresponds le plus. J'adore apprendre de nouvelles choses sans arrêt, ce que j'aime dans ce domaine c'est la varieté de choses qu'il est possible de faire.</p>
+                    </div>
+             </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-element">
+            <h3>Théo Couvelard</h3>
+            <i class="fa-solid fa-copyright"></i>
+            <button><a href="COUVELARD Théo.pdf.pdf">CV</a></button>
+            <button class="btn-night" onclick="nightMode()" aria-label="Search"><i class="fa-regular fa-moon"></i></button>
+        </div>
+        </div>
+
+        <script>            
+            function nightMode(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+
+            }
+
+            
+        </script>
+</body>
+</html>

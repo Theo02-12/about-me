@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mon site">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Site Simplon</title>
+</head>
+<body>
+    <div class="header">
+        <div class="content-header">
+            <h1>THÉO COUVELARD</h1>
+            <small class="h2-small">Développeur Web</small>
+            <p>Organisé, assidu, déterminé, flexible et toujours souriant</p>
+        </div>
+        <div class="nav-bar">
+            <nav>
+                <label for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
+                <div class="main_pages">
+                    <a href="index.html">Mon profil</a>
+                    <a href="about-me.html">À propos de moi</a>
+                    <a href="my-dreams.html">Mes rêves</a>
+                    <a href="my-passions.html">Mes passions</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="titre-main"><h2>À PROPOS DE MOI</h2></div>
+        
+        <div class="main-content">
+            
+                <div class="objectif text-skill progress2">
+                    <h2>Mes compétences opérationnelles </h2>
+                    
+                        <ul>
+                            <li>HTML <i class="fa-brands fa-html5 fa-lg"></i></li>
+                            <li>CSS <i class="fa-brands fa-css3 fa-lg"></i></li>
+                            <li>Canva <i class="fa-solid fa-pen fa-lg"></i></li>
+                            <li>Figma <i class="fa-solid fa-image fa-lg"></i> </li>
+                        </ul>
+                </div>
+                <div class="objectif text-skill mid">
+                    <h2>Mes compétences comportementales</h2>
+                    <ul>
+                        <li>Motivé <i class="fa-solid fa-fire fa-lg"></i></li>
+                        <li>Discret <i class="fa-solid fa-user fa-lg"></i></li>
+                        <li>Patient <i class="fa-solid fa-face-smile fa-lg"></i></li>
+                        <li>Rigoureux <i class="fa-solid fa-lock fa-lg"></i></li>
+                    </ul>
+                </div>
+                <div class="objectif text-skill progress">
+                    <h2>Mes connaissances</h2>
+                    <div class="skill-bar first"><div class="content-bar html">HTML5</div></div>
+                    <div class="skill-bar"><div class="content-bar css">CSS3</div></div>
+                    <div class="skill-bar"><div class="content-bar js">JavaScript</div></div>
+                    <div class="skill-bar"><div class="content-bar php">PHP</div></div>
+                    <div class="skill-bar"><div class="content-bar mysql">MySQL</div></div>
+                    <div class="skill-bar"><div class="content-bar php-objet">Objet</div></div>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-element">
+            <h3>Théo Couvelard</h3>
+            <i class="fa-solid fa-copyright"></i>
+            <button><a href="COUVELARD Théo.pdf.pdf">CV</a></button>
+            <button class="btn-night" onclick="nightMode()" aria-label="Search"><i class="fa-regular fa-moon"></i></button>
+        </div>
+        </div>
+
+        <script>            
+            function nightMode(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+
+            }
+
+            
+        </script>
+</body>
+</html>
