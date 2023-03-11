@@ -62,7 +62,7 @@ body{
 
 }
 .skill-bar{
-    height: 2vh;
+    height: 1.5vh;
     background-color: rgb(218, 218, 218);
     margin: 20px 10px 10px 10px;
     border-radius: 10px;
@@ -384,6 +384,16 @@ body{
 @media (max-height: 728px) {
     .text-skill li{
         padding: 4px;
+    }
+    
+}
+@media (max-height: 576px) {
+    .objectif li{
+        font-size: 1.2em;
+    }
+    .skill-bar{
+        margin: 15px;
+        font-size: .8em;
     }
     
 }
