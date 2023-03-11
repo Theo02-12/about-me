@@ -135,7 +135,7 @@ body{
     width: 80%;
     height: 100%;
     display: flex;
-    padding: 60px 0px;
+    padding: 60px 1px;
     margin-bottom: 200px;
     margin: auto;
     justify-content: space-evenly;
