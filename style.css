@@ -389,8 +389,16 @@ li{
     .text-skill li{
         padding: 4px;
     }
-    
-    
+    .skill-bar{
+        margin: 13px;
+        font-size: .8em;
+        height: 5%
+    }
+}
+@media (min-height: 768px) {
+    .skill-bar{
+        height: 8%;
+    }
 }
 @media (max-height: 576px) {
     .objectif li{
