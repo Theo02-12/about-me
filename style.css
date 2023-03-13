@@ -18,6 +18,9 @@ body{
 .main_pages{
     margin-top: 5px;
 }
+li{
+    list-style-type: none;
+}
 .nav-bar .main_pages a{
     text-decoration: none;
     text-transform: uppercase;
@@ -281,7 +284,8 @@ body{
         margin-bottom: 20px;
     }
     .skill-bar{
-        margin: 10px;
+        height: 8%;
+        margin-bottom: 15px;
     }
     .para1{
         font-size: 1.5em;
@@ -374,11 +378,11 @@ body{
 
     .objectif{
         width: 25vw;
-        height: 50%;
+        height: 40vh;
         text-align: center;
     }
     .text-skill li{
-        padding: 10px;
+        padding: 15px;
     }
 }
 @media (max-height: 728px) {
@@ -386,16 +390,20 @@ body{
         padding: 4px;
     }
     
+    
 }
 @media (max-height: 576px) {
     .objectif li{
         font-size: 1.2em;
     }
     .skill-bar{
-        margin: 15px;
+        margin: 13px;
         font-size: .8em;
+        height: 5%
     }
-    
+    .reves li{
+        padding: 8px;
+    }
 }
 
 nav .main_pages a{
